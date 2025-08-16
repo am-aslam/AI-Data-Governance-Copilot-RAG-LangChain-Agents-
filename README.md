@@ -23,7 +23,7 @@ Built for **conversational compliance checks, lineage tracing, and policy search
 
 ## ⚡ Quick Start
 ```bash
-git clone https://github.com/USERNAME/atlan-ai-governance-copilot.git
+git clone https://github.com/am-aslam/atlan-ai-governance-copilot.git
 cd atlan-ai-governance-copilot
 pip install -r requirements.txt
 
