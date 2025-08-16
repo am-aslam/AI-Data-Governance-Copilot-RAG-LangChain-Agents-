@@ -1,0 +1,9 @@
+name,system,owner,domain,has_pii,encryption,retention_days,last_audit_date,classification
+customer_profiles,postgres_prod,data.stewards@acme.com,customer,True,AES256,365,2025-07-10,confidential
+customer_events,s3_lake,analytics@acme.com,customer,True,NONE,180,2025-06-28,restricted
+orders,snowflake_wh,finance@acme.com,finance,False,AES256,730,2025-05-18,internal
+payments,snowflake_wh,finance@acme.com,finance,True,AES256,1095,2025-05-18,confidential
+marketing_leads,bigquery_mkt,growth@acme.com,marketing,True,KMS_MANAGED,90,2025-04-30,restricted
+product_catalog,postgres_prod,catalog@acme.com,product,False,AES256,1825,2025-03-11,public
+support_tickets,s3_lake,support@acme.com,support,True,AES256,365,2025-07-01,confidential
+web_analytics,bigquery_mkt,growth@acme.com,marketing,False,KMS_MANAGED,365,2025-06-01,internal

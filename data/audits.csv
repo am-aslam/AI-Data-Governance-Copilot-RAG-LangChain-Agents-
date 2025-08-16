@@ -1,0 +1,9 @@
+dataset,gdpr_ok,remarks
+customer_profiles,False,Missing consent tracking for legacy rows; DPIA pending.
+customer_events,False,Contains IP without documented retention controls.
+orders,True,No PII and encryption in place.
+payments,True,PII masked at source; PCI scope controlled.
+marketing_leads,True,Consent captured via webform; 90-day retention.
+product_catalog,True,No PII.
+support_tickets,False,Transcripts may include sensitive personal data; redaction incomplete.
+web_analytics,True,Aggregated; no direct identifiers.

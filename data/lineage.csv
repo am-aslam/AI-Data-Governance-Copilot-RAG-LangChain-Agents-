@@ -1,0 +1,7 @@
+source,target,transformation
+customer_profiles,customer_events,left_join_on(customer_id)
+customer_profiles,support_tickets,lookup(email)
+orders,payments,join(order_id)
+customer_events,web_analytics,aggregate_by_session
+marketing_leads,customer_profiles,"match(email, phone)"
+product_catalog,orders,lookup(sku)
